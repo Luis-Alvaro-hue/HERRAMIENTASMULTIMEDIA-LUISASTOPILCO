@@ -1,29 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Herramientas Multimedia</title>
-</head>
-<body>
-    <div>
-        <h2> Sopa de letras: Componentes internos de una PC </h2>
-        <iframe allow="fullscreen; autoplay; allow-top-navigation-
-        by-user-activation" allowfullscreen width="795" height="690" 
-        frameborder="0" src="https://es.educaplay.com/juego/29724778-
-        componentes_internos_de_una_computadora.html"></iframe>
-        <br><br>
-        <h2> Crucigrama: Los 10 Informaticos mas influyentes </h2>
-        <iframe allow="fullscreen; autoplay; allow-top-navigation-
-        by-user-activation" allowfullscreen width="795" height="690" 
-        frameborder="0" src="https://es.educaplay.com/juego/29725345-
-        mentes_que_transformaron_la_informatica.html"></iframe>
-        <br><br>
-        <h2> Ranita salarina: Dispositivos de redes </h2>
-        <iframe allow="fullscreen; autoplay; allow-top-navigation-
-        by-user-activation" allowfullscreen width="795" height="690" 
-        frameborder="0" src="https://es.educaplay.com/juego/29725757-
-        dispositivos_de_red_esenciales.html"></iframe>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Herramientas Multimedia</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+        <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Poppins',sans-serif;
+        }
+        
+        body{
+            background:linear-gradient(135deg,#0f172a,#1e3a8a,#2563eb);
+            color:white;
+        }
+        
+        header{
+            text-align:center;
+            padding:40px;
+            background:rgba(0,0,0,.25);
+            backdrop-filter:blur(8px);
+            box-shadow:0 5px 15px rgba(0,0,0,.3);
+        }
+        
+        header h1{
+            font-size:45px;
+        }
+
+        header p{
+            margin-top:10px;
+            font-size:18px;
+            color:#dbeafe;
+        }
+        
+        .container{
+            width:90%;
+            max-width:1200px;
+            margin:auto;
+            padding:40px 0;
+        }
+        
+        .card{
+            background:white;
+            color:#333;
+            border-radius:20px;
+            margin-bottom:50px;
+            padding:25px;
+            box-shadow:0 10px 30px rgba(0,0,0,.3);
+            transition:.4s;
+        }
+        
+        .card:hover{
+            transform:translateY(-8px);
+        }
+        
+        .card h2{
+            color:#1e40af;
+            margin-bottom:10px;
+        }
+        
+        .card p{
+            margin-bottom:20px;
+            color:#555;
+        }
+        
+        iframe{
+            width:100%;
+            height:700px;
+            border:none;
+            border-radius:15px;
+        }
+        
+        footer{
+            text-align:center;
+            padding:25px;
+            background:rgba(0,0,0,.25);
+            color:white;
+        }
+        
+        @media(max-width:768px){
+            
+            header h1{
+                font-size:30px;
+            }
+            
+            iframe{
+                height:500px;
+            }
+            
+        }
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <header>
+            <h1>Herramientas Multimedia</h1>
+            <p>Actividades interactivas sobre Ofimática, Redes y Dispositivos de Comunicación.</p>
+        </header>
+        
+        <div class="container">
+        <div class="card">
+            
+            <h2>Ordenar Palabras</h2>
+            <p>
+                Pon a prueba tus conocimientos sobre <b>Ofimática y Gestión de Datos</b>
+                ordenando correctamente los conceptos.
+            </p>
+            
+            <iframe
+            allow="fullscreen; autoplay; allow-top-navigation-by-user-activation"
+            allowfullscreen
+            src="https://es.educaplay.com/juego/29775953-ofimatica_y_gestion_de_datos_1_de_eso.html">
+        </iframe>
     </div>
+    
+    <div class="card">
+        
+        <h2>Relacionar Columnas</h2>
+        
+        <p>
+            Relaciona correctamente los conceptos de
+            <b>Redes y Comunicaciones</b>.
+        </p>
+        
+        <iframe
+        allow="fullscreen; autoplay; allow-top-navigation-by-user-activation"
+        allowfullscreen
+        src="https://es.educaplay.com/juego/29775981-redes_y_comunicaciones_primer_ano.html">
+    </iframe>
+    
+</div>
+
+
+
+<div class="card">
+    
+    <h2>Adivinanzas</h2>
+    
+    <p>
+        Responde las adivinanzas sobre
+        <b>Hardware y Software.</b>
+    </p>
+    
+    <iframe allow="fullscreen; autoplay; allow-top-navigation-by-user-activation" 
+    allowfullscreen 
+    width="795" height="690" frameborder="0" src="https://es.educaplay.com/juego/2977
+    7908-adivina_el_cerebro_de_la_computadora.html">
+</iframe>
+
+</div>
+
+</div>
+
+
+<footer>
+    
+    Desarrollado por <strong>Luis Álvaro Astopilco Quispe</strong><br>
+    Computación e Informática • Herramientas Multimedia • 2026
+    
+</footer>
+
 </body>
 </html>
