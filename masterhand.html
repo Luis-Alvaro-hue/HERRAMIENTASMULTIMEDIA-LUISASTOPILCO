@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASTER HAND - SUPER SMASH BROS 64</title>
+    
+    <link rel="stylesheet" href="estilos.css">
+
+    <style>
+        .video-container {
+            width: 90%;
+            max-width: 800px;
+            margin: 40px auto;
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        video {
+            width: 100%;
+            border-radius: 12px;
+            display: block;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        .boton {
+            display: inline-block;
+            margin-top: 25px;
+            background: #0d6efd;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 30px; 
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(13, 110, 253, 0.3);
+        }
+
+        .boton:hover {
+            background: #0b5ed7;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(13, 110, 253, 0.5);
+        }
+
+        body {
+            /* Degradado oscuro moderno que hace resaltar los renders */
+            padding:0;
+            margin:0;
+            background-image: url("img/fondoblender.png");
+            background-size: cover;        /* La imagen ocupa toda la pantalla */
+            background-position: center;   /* Centrada */
+            background-repeat: no-repeat;  /* No se repite */
+            background-attachment: fixed;  /* Permanece fija al hacer scroll */
+        }
+
+    </style>
+</head>
+
+<body>
+    
+
+    <h1>MASTER HAND</h1>
+
+    <div class="video-container">
+        <video controls>
+            <source src="videos/FINAL MASTER HAND.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de videos.
+        </video>
+
+        <a href="index.html" class="boton">
+            ← Regresar al menú
+        </a>
+    </div>
+
+</body>
+</html>
